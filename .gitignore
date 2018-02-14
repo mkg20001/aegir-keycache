@@ -1,0 +1,31 @@
+# Configs, etc.
+*.pem
+config.json
+
+# NodeJS
+node_modules
+coverage
+.nyc_output
+package-lock.json
+
+# aegir
+dist
+docs
+
+# Other garbage
+*.bak
+*.log
+tmp
+/data
+keycache.json
+
+# Python
+*.pyc
+
+# snap
+parts
+prime
+stage
+*.tar.bz2
+*.snap
+snap/.snapcraft
